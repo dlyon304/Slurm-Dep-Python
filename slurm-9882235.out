@@ -1,0 +1,11 @@
+submitting job: 1
+9882236
+submitting job: 2
+['sbatch', '-J', 'sleep2', '--dependency=afterok:9882236', 'sleepy.sbatch']
+9882237
+submitting job: 3
+['sbatch', '-J', 'sleep3', '--dependency=afterok:9882237', 'sleepy.sbatch']
+9882238
+submitting job: 4
+['sbatch', '-J', 'sleep4', '--dependency=afterok:9882238', 'sleepy.sbatch']
+9882239
